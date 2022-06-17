@@ -20,6 +20,10 @@ body {
   font-size: 1.7rem;
 }
 
+p {
+  color: #999;
+}
+
 /* Header ==================== */
 
 .header {
@@ -51,6 +55,8 @@ body {
 
 .services-cards {
   display: flex;
+  gap: 15px;
+  padding-bottom: 4%;
 }
 
 .services-cards .card {
