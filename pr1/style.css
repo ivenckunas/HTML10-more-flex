@@ -93,7 +93,9 @@ p {
 /* Numbers section ============== */
 
 .numbers {
-  background-color: #0779e4;
+  /* background-color: #0779e4; */
+  background-image: linear-gradient(to bottom, #0779e4cc, #0779e4cc), url(./bg.webp);
+  background-size: cover;
 }
 
 .numbers i {
