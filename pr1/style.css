@@ -111,6 +111,9 @@ p {
 .numbers-card {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-basis: 20%;
   padding: 8% 0;
 }
 
