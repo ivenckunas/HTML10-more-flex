@@ -58,7 +58,13 @@ p {
   gap: 15px;
   padding-bottom: 4%;
 }
-
+.services-cards i {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #0779e4;
+  color: #ffffff;
+  font-size: 2.5rem;
+}
 .services-cards .card {
   background-color: #fff;
   flex-basis: 33%;
@@ -68,4 +74,56 @@ p {
 .card-title,
 .card-link {
   color: #0779e4;
+}
+
+.services-footer {
+  margin: 0 auto;
+  width: 66%;
+}
+
+.services-footer1 {
+  color: rgb(153, 153, 153);
+  font-weight: bold;
+}
+
+.services-footer1 a {
+  color: #0779e4;
+}
+
+/* Numbers section ============== */
+
+.numbers {
+  background-color: #0779e4;
+}
+
+.numbers i {
+  color: white;
+  font-size: 70px;
+  padding-right: 10px;
+}
+
+.numbers-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.numbers-card {
+  display: flex;
+  align-items: center;
+  padding: 8% 0;
+}
+
+.numbers-text p {
+  color: white;
+}
+.numbers-text p:last-child {
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.number {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
