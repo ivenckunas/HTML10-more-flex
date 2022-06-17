@@ -1,3 +1,25 @@
+/* Common Css ==================== */
+
+body {
+  background-color: #f8f8f8;
+}
+.section {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.section-subtitle {
+  color: #0779e4;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 13px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
 /* Header ==================== */
 
 .header {
@@ -23,4 +45,21 @@
 
 .nav-link:hover {
   background-color: #3997ee;
+}
+
+/* Services section ============== */
+
+.services-cards {
+  display: flex;
+}
+
+.services-cards .card {
+  background-color: #fff;
+  flex-basis: 33%;
+  padding: 1.5em;
+}
+
+.card-title,
+.card-link {
+  color: #0779e4;
 }
