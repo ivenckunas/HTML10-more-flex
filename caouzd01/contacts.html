@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAO Uzduotis HTML10 paskaita</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="https://images.vexels.com/media/users/3/137617/isolated/lists/c45afb857e72b86e87baaf255f71ff37-geometric-logo-abstract.png" alt="abstract logo" />
+      <nav>
+        <a href="./index.html">About Us</a>
+        <a href="./contacts.html">Contacts</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Contact Us</h1>
+        <form action="https://formspree.io/f/xoqrzvdp" method="POST">
+          <label for="name">Name</label>
+          <br />
+          <input name="name" id="name" type="text" placeholder="Petras" required />
+          <br />
+          <label for="name">E-mail</label>
+          <br />
+          <input name="email" id="name" type="text" placeholder="email@email.com" required />
+          <br />
+          <label for="phone">Phone number</label>
+          <br />
+          <input name="number" id="phone" type="number" placeholder="+37062458565" required />
+          <br />
+          <label for="message">Your Message</label>
+          <br />
+          <textarea name="message" id="message" cols="30" rows="3" required></textarea>
+          <br />
+          <button type="submit">Send</button>
+        </form>
+        <table>
+          <thead>
+            <th>Name</th>
+            <th>Pareigos</th>
+            <th>Phone Number</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Vidmantas</td>
+              <td>Direktorius</td>
+              <td>+37062458568</td>
+            </tr>
+            <tr>
+              <td>Nijole</td>
+              <td>Administratore</td>
+              <td>+37062458568</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; CodeAcademy 2022. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

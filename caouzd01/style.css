@@ -1,0 +1,101 @@
+main {
+  background-image: url(https://images.unsplash.com/photo-1529697216570-f48ef8f6b2dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* headeris ir nav */
+
+header {
+  background-color: rgb(42, 61, 226);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  display: inline-block;
+  padding: 32px 30px;
+  color: white;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.801);
+  color: black;
+}
+
+.logo {
+  height: 60px;
+  margin-left: 25px;
+}
+
+/* main sekcija */
+img {
+  float: left;
+  padding-right: 15px;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+/* containeris */
+
+.container {
+  padding: 50px 0;
+}
+
+/* footeris */
+
+footer {
+  background-image: linear-gradient(to bottom, #3437e7cc, #1a0057), url(https://images.unsplash.com/photo-1654772665120-74492b21e41b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1121&q=80);
+  padding: 50px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
+
+/* kontaktu forma */
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  border: none;
+  background-color: rgb(0, 128, 0);
+  color: white;
+  padding: 10px 40px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(45, 168, 45);
+}
+
+/* Lentele */
+
+td,
+th,
+tr {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid rgba(128, 128, 128, 0.719);
+  border-collapse: collapse;
+  padding: 5px;
+}
